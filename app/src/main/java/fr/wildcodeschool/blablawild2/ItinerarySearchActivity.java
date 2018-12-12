@@ -65,7 +65,7 @@ public class ItinerarySearchActivity extends AppCompatActivity {
                 reference.child(key).setValue(trip);
 
             }
-
+//
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
                 Toast.makeText(ItinerarySearchActivity.this,R.string.failed_to_read_value,Toast.LENGTH_LONG).show();
